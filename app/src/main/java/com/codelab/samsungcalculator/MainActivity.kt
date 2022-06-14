@@ -20,12 +20,20 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.hide()
 
-        binding.btnPM.setOnClickListener {
+        binding.btnMod.setOnClickListener {
             onDigit(it)
         }
 
         binding.btnCLR.setOnClickListener {
             onClear(it)
+        }
+
+        binding.btnEqual.setOnClickListener {
+            onEqual(it)
+        }
+
+        binding.btnBraces.setOnClickListener {
+            onDigit(it)
         }
     }
 
@@ -35,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         lastDot = false
     }
 
-    fun onClear(view: View) {
+    private fun onClear(view: View) {
         binding.tvInput.text = ""
     }
 
@@ -57,7 +65,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun onEqual(view: View) {
+    private fun onEqual(view: View) {
         if (lastNumeric) {
             var tvValue = binding.tvInput.text.toString()
             var prefix = ""
@@ -114,6 +122,18 @@ class MainActivity : AppCompatActivity() {
                     }
 
                     var result = one.toDouble() * two.toDouble()
+                    binding.tvInput.text = removeZeroAfterDot(result.toString())
+                } else if (tvValue.contains("%")) {
+                    val splitValue = tvValue.split("%")
+
+                    var one = splitValue[0]
+                    var two = splitValue[1]
+
+                    if (prefix.isNotEmpty()) {
+                        one = prefix + one
+                    }
+
+                    var result = one.toDouble() % two.toDouble()
                     binding.tvInput.text = removeZeroAfterDot(result.toString())
                 }
 
