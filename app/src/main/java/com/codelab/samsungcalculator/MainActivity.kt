@@ -19,6 +19,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         supportActionBar?.hide()
+
+        binding.btnPM.setOnClickListener {
+            onDigit(it)
+        }
+
+        binding.btnCLR.setOnClickListener {
+            onClear(it)
+        }
     }
 
     fun onDigit(view: View) {
