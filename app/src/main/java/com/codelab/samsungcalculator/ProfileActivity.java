@@ -35,9 +35,6 @@ public class ProfileActivity extends AppCompatActivity {
         startActivity(new Intent(this, MainActivity.class));
     }
 
-    public ActivityProfileBinding getBinding() {
-        return binding;
-    }
 
 
 }
