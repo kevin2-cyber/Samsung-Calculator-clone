@@ -34,6 +34,15 @@
             android:background="@drawable/clock"
             android:textColor="@color/green"/>
 
+        <ProgressBar
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:layout_weight="1"
+            android:outlineSpotShadowColor="@color/white"
+            android:outlineAmbientShadowColor="@color/white"
+            style="?android:attr/progressBarStyleHorizontal"/>
+
     </LinearLayout>
 
     <LinearLayout
