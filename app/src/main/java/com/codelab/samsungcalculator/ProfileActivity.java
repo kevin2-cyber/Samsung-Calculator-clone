@@ -21,6 +21,8 @@ public class ProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(binding.getRoot());
 
+        binding.welcomeBtn.setOnClickListener(this::logout);
+
 
     }
 
