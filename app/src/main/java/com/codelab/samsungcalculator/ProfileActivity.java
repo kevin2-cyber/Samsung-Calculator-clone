@@ -5,13 +5,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.codelab.samsungcalculator.databinding.ActivityProfileBinding;
 import com.google.android.material.snackbar.Snackbar;
 
-import java.util.Objects;
 
 public class ProfileActivity extends AppCompatActivity {
 
@@ -22,8 +20,6 @@ public class ProfileActivity extends AppCompatActivity {
         binding = ActivityProfileBinding.inflate(getLayoutInflater());
         super.onCreate(savedInstanceState);
         setContentView(binding.getRoot());
-
-
 
 
     }
