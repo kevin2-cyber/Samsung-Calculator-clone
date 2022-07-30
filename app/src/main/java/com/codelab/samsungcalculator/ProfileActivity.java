@@ -21,14 +21,14 @@ public class ProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(binding.getRoot());
 
-        binding.welcomeBtn.setOnClickListener(this::logout);
+        binding.welcomeBtn.setOnClickListener(this::welcome);
 
 
     }
 
-    private void logout(View view) {
-        Snackbar.make(view,"Logout Successful", Snackbar.LENGTH_LONG).show();
-        Toast.makeText(this,"Logout Successful", Toast.LENGTH_LONG).show();
+    private void welcome(View view) {
+        Snackbar.make(view,"Welcome", Snackbar.LENGTH_LONG).show();
+        Toast.makeText(this,"Welcome", Toast.LENGTH_LONG).show();
         startActivity(new Intent(this, MainActivity.class));
     }
 
