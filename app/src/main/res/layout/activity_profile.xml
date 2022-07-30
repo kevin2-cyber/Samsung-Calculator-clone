@@ -14,7 +14,22 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
             android:text="@string/app_name"/>
+
+        <Button
+            android:id="@+id/welcome_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="600dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="83dp"
+            android:fontFamily="@font/poppins"
+            android:textAllCaps="false"
+            android:text="@string/welcome" />
     </GridLayout>
 
 </RelativeLayout>
