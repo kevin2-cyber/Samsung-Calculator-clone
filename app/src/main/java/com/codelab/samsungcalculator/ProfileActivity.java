@@ -15,7 +15,7 @@ import java.util.Objects;
 
 public class ProfileActivity extends AppCompatActivity {
 
-    private ActivityProfileBinding binding;
+    ActivityProfileBinding binding;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
