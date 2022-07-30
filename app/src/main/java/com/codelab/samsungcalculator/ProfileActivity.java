@@ -18,7 +18,7 @@ public class ProfileActivity extends AppCompatActivity {
     ActivityProfileBinding binding;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         binding = ActivityProfileBinding.inflate(getLayoutInflater());
         super.onCreate(savedInstanceState);
         setContentView(binding.getRoot());
