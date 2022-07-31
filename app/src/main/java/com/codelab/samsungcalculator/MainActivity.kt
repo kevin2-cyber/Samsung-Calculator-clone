@@ -45,6 +45,10 @@ class MainActivity : AppCompatActivity() {
         binding.btnMultiply.setOnClickListener {
             onOperator(it)
         }
+
+        binding.btnAdd.setOnClickListener {
+            onOperator(it)
+        }
     }
 
     fun onDigit(view: View) {
