@@ -37,6 +37,14 @@ class MainActivity : AppCompatActivity() {
         binding.btnBraces.setOnClickListener {
             onDigit(it)
         }
+
+        binding.btnDivide.setOnClickListener {
+            onOperator(it)
+        }
+
+        binding.btnMultiply.setOnClickListener {
+            onOperator(it)
+        }
     }
 
     fun onDigit(view: View) {

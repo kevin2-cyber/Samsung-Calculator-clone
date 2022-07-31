@@ -99,7 +99,6 @@
             android:text="/"
             android:textColor="@color/green"
             android:textSize="25sp"
-            android:onClick="onOperator"
             tools:ignore="HardcodedText,OnClick" />
 
     </LinearLayout>
@@ -155,7 +154,6 @@
             android:background="@drawable/round_style"
             android:text="*"
             android:textColor="@color/green"
-            android:onClick="onOperator"
             tools:ignore="HardcodedText,NestedWeights,OnClick" />
 
     </LinearLayout>
