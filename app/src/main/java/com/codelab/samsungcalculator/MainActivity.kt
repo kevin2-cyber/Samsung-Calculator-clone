@@ -49,6 +49,10 @@ class MainActivity : AppCompatActivity() {
         binding.btnAdd.setOnClickListener {
             onOperator(it)
         }
+
+        binding.btnSubtract.setOnClickListener {
+            onOperator(it)
+        }
     }
 
     fun onDigit(view: View) {
