@@ -2,7 +2,7 @@
 <resources>
     <style name="Theme.AppCompat.Splash" parent="Theme.SplashScreen">
 
-        <item name="windowSplashScreenBackground">#F3F3F3</item>
+        <item name="windowSplashScreenBackground">@color/black</item>
 
         <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_round</item>
 
