@@ -20,8 +20,6 @@ class MainActivity : AppCompatActivity() {
         installSplashScreen()
         setContentView(binding.root)
 
-        supportActionBar?.hide()
-
         binding.btnMod.setOnClickListener {
             onDigit(it)
         }
