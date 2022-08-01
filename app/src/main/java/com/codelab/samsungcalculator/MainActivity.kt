@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
-        installSplashScreen()
+        installSplashScreen().toString()
         setContentView(binding.root)
 
         binding.btnMod.setOnClickListener {
