@@ -8,6 +8,6 @@
 
         <item name="windowSplashScreenAnimationDuration">4000</item>
 
-        <item name="postSplashScreenTheme">@style/Theme.SamsungCalculator</item>
+        <item name="postSplashScreenTheme">@style/Theme.AppCompat.SamsungCalculator</item>
     </style>
 </resources>
