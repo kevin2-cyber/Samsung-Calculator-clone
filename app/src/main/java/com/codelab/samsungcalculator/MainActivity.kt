@@ -53,6 +53,50 @@ class MainActivity : AppCompatActivity() {
         binding.btnSubtract.setOnClickListener {
             onOperator(it)
         }
+
+        binding.btnDot.setOnClickListener {
+            onDecimalPoint(it)
+        }
+
+        binding.btnZero.setOnClickListener {
+            onDigit(it)
+        }
+
+        binding.btnOne.setOnClickListener {
+            onDigit(it)
+        }
+
+        binding.btnTwo.setOnClickListener {
+            onDigit(it)
+        }
+
+        binding.btnThree.setOnClickListener {
+            onDigit(it)
+        }
+
+        binding.btnFour.setOnClickListener {
+            onDigit(it)
+        }
+
+        binding.btnFive.setOnClickListener {
+            onDigit(it)
+        }
+
+        binding.btnSix.setOnClickListener {
+            onDigit(it)
+        }
+
+        binding.btnSeven.setOnClickListener {
+            onDigit(it)
+        }
+
+        binding.btnEight.setOnClickListener {
+            onDigit(it)
+        }
+
+        binding.btnNine.setOnClickListener {
+            onDigit(it)
+        }
     }
 
     fun onDigit(view: View) {
@@ -65,7 +109,7 @@ class MainActivity : AppCompatActivity() {
         binding.tvInput.text = ""
     }
 
-    fun onDecimalPoint(view: View) {
+    private fun onDecimalPoint(view: View) {
         if (lastNumeric && !lastDot){
             binding.tvInput.append(".")
             lastNumeric = false
