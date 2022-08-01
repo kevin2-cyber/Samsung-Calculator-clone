@@ -15,15 +15,16 @@
     <TextView
         android:id="@+id/tvInput"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="150dp"
         android:background="@color/black"
         android:padding="10dp"
+        android:textColor="@color/white"
         android:textSize="48sp"
         android:gravity="end|bottom" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="220dp"
+        android:layout_height="150dp"
         android:background="@color/black"
         android:orientation="horizontal"
         android:gravity="start|bottom">
@@ -116,6 +117,7 @@
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:text="7"
+            android:textColor="@color/white"
             android:textSize="25sp"
             android:background="@drawable/round_style"
             tools:ignore="NestedWeights" />
@@ -127,6 +129,7 @@
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:textSize="25sp"
+            android:textColor="@color/white"
             android:background="@drawable/round_style"
             android:text="8"
             android:onClick="onDigit" />
@@ -138,6 +141,7 @@
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:textSize="25sp"
+            android:textColor="@color/white"
             android:background="@drawable/round_style"
             android:text="9"
             android:onClick="onDigit"
@@ -173,6 +177,7 @@
             android:layout_weight="1"
             android:onClick="onDigit"
             android:textSize="25sp"
+            android:textColor="@color/white"
             android:background="@drawable/round_style"
             android:text="4"
             tools:ignore="NestedWeights" />
@@ -184,6 +189,7 @@
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:textSize="25sp"
+            android:textColor="@color/white"
             android:background="@drawable/round_style"
             android:text="5"
             android:onClick="onDigit" />
@@ -197,6 +203,7 @@
             android:textSize="25sp"
             android:background="@drawable/round_style"
             android:text="6"
+            android:textColor="@color/white"
             android:onClick="onDigit" />
 
 
@@ -228,6 +235,7 @@
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:onClick="onDigit"
+            android:textColor="@color/white"
             android:background="@drawable/round_style"
             android:text="1"
             android:textSize="25sp"
@@ -243,6 +251,7 @@
             android:text="2"
             android:textSize="25sp"
             android:onClick="onDigit"
+            android:textColor="@color/white"
             tools:ignore="HardcodedText" />
 
         <Button
@@ -253,6 +262,7 @@
             android:layout_weight="1"
             android:background="@drawable/round_style"
             android:text="3"
+            android:textColor="@color/white"
             android:textSize="25sp"
             android:onClick="onDigit" />
 
@@ -284,6 +294,7 @@
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:text="+/-"
+            android:textColor="@color/white"
             android:textSize="25sp"
             android:background="@drawable/round_style"
             tools:ignore="HardcodedText,NestedWeights" />
@@ -294,6 +305,7 @@
             android:layout_height="match_parent"
             android:layout_margin="2dp"
             android:layout_weight="1"
+            android:textColor="@color/white"
             android:background="@drawable/round_style"
             android:onClick="onDigit"
             android:textSize="25sp"
@@ -307,6 +319,7 @@
             android:layout_weight="1"
             android:onClick="onDecimalPoint"
             android:text="."
+            android:textColor="@color/white"
             android:background="@drawable/round_style"
             android:textSize="25sp"
             tools:ignore="HardcodedText,NestedWeights,OnClick" />
