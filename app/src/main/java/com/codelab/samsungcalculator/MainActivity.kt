@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun onDigit(view: View) {
+    private fun onDigit(view: View) {
         binding.tvInput.append((view as Button).text)
         lastNumeric = true
         lastDot = false
