@@ -10,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.codelab.samsungcalculator.databinding.ActivityProfileBinding;
 import com.google.android.material.snackbar.Snackbar;
 
+import java.util.Objects;
+
 
 public class ProfileActivity extends AppCompatActivity {
 
@@ -20,6 +22,7 @@ public class ProfileActivity extends AppCompatActivity {
         binding = ActivityProfileBinding.inflate(getLayoutInflater());
         super.onCreate(savedInstanceState);
         setContentView(binding.getRoot());
+        Objects.requireNonNull(getSupportActionBar()).hide();
 
         binding.welcomeBtn.setOnClickListener(this::welcome);
 
