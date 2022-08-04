@@ -16,7 +16,9 @@ class ProfileActivity : AppCompatActivity() {
         )
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
         supportActionBar?.hide()
+
         binding.welcomeBtn.setOnClickListener {
             welcome(it)
         }
