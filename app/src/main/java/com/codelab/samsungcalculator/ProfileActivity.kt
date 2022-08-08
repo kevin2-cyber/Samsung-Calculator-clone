@@ -6,6 +6,7 @@ import com.google.android.material.snackbar.Snackbar
 import android.widget.Toast
 import android.content.Intent
 import android.view.View
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.codelab.samsungcalculator.databinding.ActivityProfileBinding
 
 class ProfileActivity : AppCompatActivity() {
@@ -14,6 +15,7 @@ class ProfileActivity : AppCompatActivity() {
         binding = ActivityProfileBinding.inflate(
             layoutInflater
         )
+        installSplashScreen().apply {  }
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
