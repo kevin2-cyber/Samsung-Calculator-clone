@@ -1,6 +1,6 @@
 # Samsung-Calculator-clone
 
-Samsung Calculator Clone using Android with Kotlin
+Samsung Calculator Clone using Android
 
 ## Actual
 ![](pics/actual.jpg)
