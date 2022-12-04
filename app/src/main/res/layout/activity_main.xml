@@ -108,7 +108,8 @@
             android:textColor="@color/red"
             android:textSize="25sp"
             android:background="@drawable/round_style"
-            tools:ignore="HardcodedText,NestedWeights,OnClick" />
+            tools:ignore="HardcodedText,NestedWeights,OnClick"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnBraces"
@@ -120,7 +121,8 @@
             android:textColor="@color/green"
             android:textSize="25sp"
             android:background="@drawable/round_style"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnMod"
@@ -132,7 +134,8 @@
             android:textColor="@color/green"
             android:textSize="25sp"
             android:background="@drawable/round_style"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            style="?android:attr/buttonBarButtonStyle" />
 
 
 
@@ -146,7 +149,8 @@
             android:text="/"
             android:textColor="@color/green"
             android:textSize="25sp"
-            tools:ignore="HardcodedText,OnClick" />
+            tools:ignore="HardcodedText,OnClick"
+            style="?android:attr/buttonBarButtonStyle" />
 
     </LinearLayout>
 
@@ -166,7 +170,8 @@
             android:textColor="@color/white"
             android:textSize="25sp"
             android:background="@drawable/round_style"
-            tools:ignore="NestedWeights" />
+            tools:ignore="NestedWeights"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnEight"
@@ -177,7 +182,8 @@
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@drawable/round_style"
-            android:text="@string/_8" />
+            android:text="@string/_8"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnNine"
@@ -189,7 +195,8 @@
             android:textColor="@color/white"
             android:background="@drawable/round_style"
             android:text="9"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            style="?android:attr/buttonBarButtonStyle" />
 
 
         <Button
@@ -202,7 +209,8 @@
             android:background="@drawable/round_style"
             android:text="*"
             android:textColor="@color/green"
-            tools:ignore="HardcodedText,NestedWeights,OnClick" />
+            tools:ignore="HardcodedText,NestedWeights,OnClick"
+            style="?android:attr/buttonBarButtonStyle" />
 
     </LinearLayout>
 
@@ -223,7 +231,8 @@
             android:textColor="@color/white"
             android:background="@drawable/round_style"
             android:text="@string/_4"
-            tools:ignore="NestedWeights" />
+            tools:ignore="NestedWeights"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnFive"
@@ -234,7 +243,8 @@
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@drawable/round_style"
-            android:text="@string/_5" />
+            android:text="@string/_5"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnSix"
@@ -245,7 +255,8 @@
             android:textSize="25sp"
             android:background="@drawable/round_style"
             android:text="@string/_6"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            style="?android:attr/buttonBarButtonStyle" />
 
 
 
@@ -259,7 +270,8 @@
             android:background="@drawable/round_style"
             android:text="-"
             android:textColor="@color/green"
-            tools:ignore="HardcodedText,OnClick" />
+            tools:ignore="HardcodedText,OnClick"
+            style="?android:attr/buttonBarButtonStyle" />
 
     </LinearLayout>
 
@@ -279,7 +291,8 @@
             android:background="@drawable/round_style"
             android:text="@string/_1"
             android:textSize="25sp"
-            tools:ignore="NestedWeights" />
+            tools:ignore="NestedWeights"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnTwo"
@@ -291,7 +304,8 @@
             android:text="2"
             android:textSize="25sp"
             android:textColor="@color/white"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnThree"
@@ -302,7 +316,8 @@
             android:background="@drawable/round_style"
             android:text="@string/_3"
             android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnAdd"
@@ -314,7 +329,8 @@
             android:textColor="@color/green"
             android:textSize="30sp"
             android:background="@drawable/round_style"
-            tools:ignore="HardcodedText,OnClick" />
+            tools:ignore="HardcodedText,OnClick"
+            style="?android:attr/buttonBarButtonStyle" />
 
 
     </LinearLayout>
@@ -335,7 +351,8 @@
             android:textColor="@color/white"
             android:textSize="25sp"
             android:background="@drawable/round_style"
-            tools:ignore="HardcodedText,NestedWeights" />
+            tools:ignore="HardcodedText,NestedWeights"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnZero"
@@ -346,7 +363,8 @@
             android:textColor="@color/white"
             android:background="@drawable/round_style"
             android:textSize="25sp"
-            android:text="@string/_0" />
+            android:text="@string/_0"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnDot"
@@ -358,7 +376,8 @@
             android:textColor="@color/white"
             android:background="@drawable/round_style"
             android:textSize="25sp"
-            tools:ignore="HardcodedText,NestedWeights,OnClick" />
+            tools:ignore="HardcodedText,NestedWeights,OnClick"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnEqual"
@@ -370,7 +389,8 @@
             android:textColor="@color/black"
             android:background="@drawable/equal_style"
             android:textSize="25sp"
-            tools:ignore="HardcodedText,NestedWeights" />
+            tools:ignore="HardcodedText,NestedWeights"
+            style="?android:attr/buttonBarButtonStyle" />
 
 
     </LinearLayout>
