@@ -1,6 +1,6 @@
 # Samsung-Calculator-clone
 
-Samsung Calculator clone using Android
+Samsung calculator clone using Android
 
 ## Actual
 ![](pics/actual.jpg)
