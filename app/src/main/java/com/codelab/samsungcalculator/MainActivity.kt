@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
 
     // viewBinding
     private lateinit var binding: ActivityMainBinding
-    var lastNumeric: Boolean = false
-    var lastDot: Boolean = false
+    private var lastNumeric: Boolean = false
+    private var lastDot: Boolean = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityMainBinding.inflate(layoutInflater)
