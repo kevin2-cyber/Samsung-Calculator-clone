@@ -1,5 +1,6 @@
 package com.kimikevin.oneuicalculator
 
+import android.content.Context
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -22,5 +23,9 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+    }
+
+    companion object {
+       const val TAG = "MainActivity"
     }
 }
