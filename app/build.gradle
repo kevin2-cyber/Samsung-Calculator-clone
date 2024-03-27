@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.androidApplication)
-    alias(libs.plugins.jetbrainsKotlinAndroid)
-    id ('kotlin-kapt')
+//    alias(libs.plugins.jetbrainsKotlinAndroid)
+//    id ('kotlin-kapt')
 }
 
 android {
@@ -25,23 +25,22 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
+//    kotlinOptions {
+//        jvmTarget = '1.8'
+//    }
 
     buildFeatures {
-        viewBinding = true
         dataBinding true
     }
 }
 
 dependencies {
 
-    implementation libs.androidx.core.ktx
-    kapt libs.compiler
+//    implementation libs.androidx.core.ktx
+//    kapt libs.compiler
     implementation libs.androidx.appcompat
     implementation libs.material
     implementation libs.androidx.activity
