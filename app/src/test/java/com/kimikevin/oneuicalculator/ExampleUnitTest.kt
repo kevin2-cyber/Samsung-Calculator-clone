@@ -1,4 +1,4 @@
-package com.codelab.samsungcalculator
+package com.kimikevin.oneuicalculator
 
 import org.junit.Test
 
